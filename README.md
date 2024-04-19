@@ -1,5 +1,9 @@
 # <b>Hello, I want to say that this is my first hackathon. I really liked this hackathon, because there is a very kind community of participants, good organizers and good helpers</b>
 
+<div align="center">
+  <img src="img/logo.webp" width="70%">
+</div>
+
 # <b>Used technology stack:</b>
 <img src="https://img.shields.io/badge/PYTHON-black?style=for-the-badge&logo=python&logoColor=gold"/><img src="https://img.shields.io/badge/PYTORCH-black?style=for-the-badge&logo=PyTorch&logoColor=orange"/><img src="https://img.shields.io/badge/SKLEARN-black?style=for-the-badge&logo=scikit-learn&logoColor=blue"/><img src="https://img.shields.io/badge/JUPYTER-black?style=for-the-badge&logo=jupyter&logoColor=orange"/><img src="https://img.shields.io/badge/LINUX-black?style=for-the-badge&logo=linux&logoColor=yellow"/><img src="https://img.shields.io/badge/GIT-black?style=for-the-badge&logo=git&logoColor=orange"/><img src="https://img.shields.io/badge/NUMPY-black?style=for-the-badge&logo=NumPy&logoColor=013243"/><img src="https://img.shields.io/badge/PANDAS-black?style=for-the-badge&logo=Pandas&logoColor=pink"/><img src="https://img.shields.io/badge/VSC-black?style=for-the-badge&logo=Visual Studio Code&logoColor=007ACC"/><img src="https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=GitHub&logoColor=white"/><img src="https://img.shields.io/badge/YOLOv5-black?style=for-the-badge&logo=YOLO&logoColor=blue"/><img src="https://img.shields.io/badge/OPENCV-black?style=for-the-badge&logo=OpenCV&logoColor=green"/>
 
@@ -35,41 +39,15 @@ I noticed a certain pattern, the higher the batch, the better the result on the 
 
 After analyzing the markup of the boxes for the test and valid datasets, you can notice some peculiarity that very often the model creates phantom boxes and one seagull can be marked several times. 
 
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
 <img src='img/extra-classes.jpg' class='center'>
 
 In order to fight this, you need to pick up the perfect iou and conf
 
 The conf parameter (short for confidence) is responsible for the confidence threshold, which determines how confident the model is that the detected object is actually present in the image.
 
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-
 <img src='https://user-images.githubusercontent.com/54917838/162274011-e55c522a-736c-4083-9c68-a476d58c36b9.png' class='center'>
 
 IoU (Intersection over Union) is a metric used to evaluate the quality of object detection in an image. It is defined as the ratio of the area of ​​intersection between the predicted and true objects to the area of ​​the union of these objects.
-
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
 
 <img src='https://b2633864.smushcdn.com/2633864/wp-content/uploads/2016/09/iou_equation.png?lossy=2&strip=1&webp=1' class='center'>
 
